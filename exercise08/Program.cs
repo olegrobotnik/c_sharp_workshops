@@ -7,22 +7,18 @@ int n = 1;
 
 while(n <= numberN)
 {
-    if
+    if(n % 2 != 0)
     {
-        n % 2 != 0
-        Console.Write("Odd numbers are: ")
+        Console.Write("Odd numbers are: ");
         Console.Write(n + "...");
+        n++;
     }
     else    
     {
         n++;          
-    }
-    
+    } 
 }
-else
-{
-    n++;
-}
+
 
 /*
 Console.WriteLine("Enter number N: ");
