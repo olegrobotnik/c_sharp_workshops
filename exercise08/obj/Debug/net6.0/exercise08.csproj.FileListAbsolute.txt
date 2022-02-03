@@ -1,0 +1,15 @@
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\exercise08.exe
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\exercise08.deps.json
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\exercise08.runtimeconfig.json
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\exercise08.dll
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\ref\exercise08.dll
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\bin\Debug\net6.0\exercise08.pdb
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.csproj.AssemblyReference.cache
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.GeneratedMSBuildEditorConfig.editorconfig
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.AssemblyInfoInputs.cache
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.AssemblyInfo.cs
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.csproj.CoreCompileInputs.cache
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.dll
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\ref\exercise08.dll
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.pdb
+D:\Robotnik\Documents\education\projects\workshops\workshop_1\exercise08\obj\Debug\net6.0\exercise08.genruntimeconfig.cache
