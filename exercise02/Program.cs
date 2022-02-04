@@ -5,14 +5,14 @@ int numberTwo = 777;
 int min = numberOne;
 int max = 0;
 
-if (numberTwo < min) 
+if (numberTwo < min)
 {
-    min = numberTwo; 
+    min = numberTwo;
     max = numberOne;
 }
-else 
+else
 {
     max = numberTwo;
-} 
+}
 Console.WriteLine(min + " is lower than " + max);
 

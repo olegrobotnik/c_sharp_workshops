@@ -2,7 +2,7 @@
 
 int number = new Random().Next(999);
 
-if(number % 2 != 0)
+if (number % 2 != 0)
 {
     Console.WriteLine("The number " + number + " is odd.");
 }

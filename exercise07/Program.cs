@@ -1,12 +1,11 @@
-﻿
-//Показать числа от -N до N
+﻿//Показать числа от -N до N
 
 Console.Write("Enter random positive number: ");
 string numberStr = Console.ReadLine();
 int numberInt = int.Parse(numberStr);
 int numberPos = Math.Abs(numberInt);
 int numberNeg = numberPos * -1;
-while(numberNeg <= numberPos)
+while (numberNeg <= numberPos)
 {
     Console.Write(numberNeg + " ");
     numberNeg++;

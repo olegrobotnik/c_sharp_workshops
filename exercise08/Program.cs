@@ -7,15 +7,15 @@ int n = 1;
 
 Console.Write("Odd numbers are: ");
 
-while(n <= numberN) 
+while (n <= numberN)
 {
-    if(n % 2 != 0)
+    if (n % 2 != 0)
     {
         Console.Write(n + " ");
         n++;
     }
-    else    
+    else
     {
-        n++;          
-    } 
+        n++;
+    }
 }
