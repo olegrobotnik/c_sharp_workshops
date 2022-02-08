@@ -1,32 +1,36 @@
-﻿//Выяснить, кратно ли число заданному, если нет, вывести остаток.
+﻿// Выяснить, кратно ли число заданному, если нет, вывести остаток.
 
 
-int GetNumber()
+int GetNumber()  // Метод получения случайного числа от 20 до 99
 {
-    int randomNumber = new Random().Next(20, 100);
-    return randomNumber; 
+    int rndmNmbr = new Random().Next(20, 100);
+    return rndmNmbr; 
 }
 
-int number = GetNumber();
-Console.WriteLine($"Random number is {number}");
+int frstNmbr = GetNumber();
+Console.WriteLine($"The first random number is {frstNmbr}");
 
-int secondNumber = GetNumber();
-Console.WriteLine($"Second random number is {secondNumber}");
-IsMultiple(number, secondNumber);
-void IsMultiple(int firstNumber, int secondNumber)
+int scndNmbr = GetNumber();
+Console.WriteLine($"The second random number is {scndNmbr}");
+IsMltpl(frstNmbr, scndNmbr); // Вывод из метода IsMltpl
+
+void IsMltpl(int frstNmbr, int scndNmbr)
 {
-    if (firstNumber > secondNumber)     
+    if (frstNmbr > scndNmbr)     
     {
-        int result = firstNumber % secondNumber;
-        if (result == 0)
-            Console.WriteLine("First number кратно second number.")ж
-        else          
-            Console.WriteLine("First number НЕкратно second number.")
-    }
+        int rslt = frstNmbr % scndNmbr;
+        if (rslt == 0)
+            Console.WriteLine("The first number is multiple of the second number.");
+        else 
+            Console.WriteLine($"The first number is non-multiple of the second number. The remainder of the division is {rslt}.");  
+    } 
     else
-        int result = secondNumber % firstNumber;
-        if (result == 0)
-            Console.WriteLine("Second number кратно first number.")ж
+    {
+        int rslt = scndNmbr % frstNmbr;
+        if (rslt == 0)
+            Console.WriteLine("The second number is multiple of the first number.");
         else          
-            Console.WriteLine("Second number НЕкратно first number.")
-}
+            Console.WriteLine($"The second number is non-multiple of the first number. The remainder of the division is {rslt}.");   
+    }  
+        
+}  
