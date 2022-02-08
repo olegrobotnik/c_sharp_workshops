@@ -7,13 +7,6 @@ int GetNumber()  // Метод получения случайного числ�
     return rndmNmbr; 
 }
 
-int frstNmbr = GetNumber();
-Console.WriteLine($"The first random number is {frstNmbr}");
-
-int scndNmbr = GetNumber();
-Console.WriteLine($"The second random number is {scndNmbr}");
-IsMltpl(frstNmbr, scndNmbr); // Вывод из метода IsMltpl
-
 void IsMltpl(int frstNmbr, int scndNmbr)
 {
     if (frstNmbr > scndNmbr)     
@@ -34,3 +27,10 @@ void IsMltpl(int frstNmbr, int scndNmbr)
     }  
         
 }  
+
+int frstNmbr = GetNumber();
+Console.WriteLine($"The first random number is {frstNmbr}");
+
+int scndNmbr = GetNumber();
+Console.WriteLine($"The second random number is {scndNmbr}");
+IsMltpl(frstNmbr, scndNmbr); // Вывод из метода IsMltpl
