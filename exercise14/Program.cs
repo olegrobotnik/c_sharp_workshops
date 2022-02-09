@@ -75,6 +75,7 @@ else
     }
     Console.WriteLine($"{nmbrPos % 10} is the third digit.");
 }
+*/
 
 string InPut(string message)
 {
@@ -83,7 +84,6 @@ string InPut(string message)
     //int A = int.Parse(num);
     return numStr;    
 }
-*/
 
 string num1 = InPut("Enter the first number: ");
 //string num2 = InPut("Enter the second number: ");
